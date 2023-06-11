@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LionSchoolMobileAplication"
+        tools:targetApi="31">
+        <activity
+            android:name="br.senai.sp.jandira.lionschool.MeiosContatoAcitivity"
+            android:exported="false"
+            android:label="MeiosContatoAcitivity"
+            android:theme="@style/Theme.LionSchoolMobileAplication"/>
+        <activity
+            android:name="br.senai.sp.jandira.lionschool.AlunosDisciplinasActivity"
+            android:exported="false"
+            android:label="AlunosDisciplinasActivity"
+            android:theme="@style/Theme.LionSchoolMobileAplication"/>
+        <activity
+            android:name="br.senai.sp.jandira.lionschool.AlunosActivity"
+            android:exported="false"
+            android:label="AlunosActivity"
+            android:theme="@style/Theme.LionSchoolMobileAplication"/>
+        <activity
+            android:name="br.senai.sp.jandira.lionschool.CursoAlunosActivity"
+            android:exported="false"
+            android:label="MainActivity"
+            android:theme="@style/Theme.LionSchoolMobileAplication"/>
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LionSchoolMobileAplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
