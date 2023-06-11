@@ -5,11 +5,11 @@
 # Portfólio
 ---
 
-![Screenshot](./img-readme/home.png)
-![Screenshot](./img-readme/cursos.png)
-![Screenshot](./img-readme/alunos.png)
-![Screenshot](./img-readme/nota-aluno.png)
-![Screenshot](./img-readme/contatos.png)
+![Screenshot](./img-readme-kotlin/home.png)
+![Screenshot](./img-readme-kotlin/cursos.png)
+![Screenshot](./img-readme-kotlin/alunos.png)
+![Screenshot](./img-readme-kotlin/nota-aluno.png)
+![Screenshot](./img-readme-kotlin/contatos.png)
 
 
 ---
@@ -31,7 +31,7 @@ Site desenvolvido para colocar os conhecimentos obtidos no curso do [SENAI Jandi
 
 - Figma
 
-![Screenshot](./img-readme/figma.png)
+![Screenshot](./img-readme-kotlin/figma.png)
 
 [Clique aqui](https://www.figma.com/file/nL7HHsfZpJpswZUSr1OXWM/KotlinLionSchool---Apresentar?type=design&node-id=0-1&t=Acc9p9oLqVmrvk42-0) para visitar o Figma.
 
