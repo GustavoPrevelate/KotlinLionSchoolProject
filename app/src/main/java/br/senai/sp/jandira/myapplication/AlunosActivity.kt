@@ -67,7 +67,7 @@ fun AlunosScreen(curso : String?,titulo : String?) {
         }
 
     })
-    Log.i("DS2M","$alunos")
+    
     Surface(
         modifier = Modifier.fillMaxSize(),
         color = Color(51,71,176)
